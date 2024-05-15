@@ -23,8 +23,8 @@ resource "vault_generic_endpoint" "vault_signed_ssh_certs" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
-  location = "East US"
+  name     = "vault-education"
+  location = "West Europe"
 }
 
 resource "azurerm_virtual_network" "example" {
